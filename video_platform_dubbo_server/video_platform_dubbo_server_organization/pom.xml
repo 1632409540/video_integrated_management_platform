@@ -14,6 +14,7 @@
     <modules>
         <module>video_platform_dubbo_server_organization_interface</module>
         <module>video_platform_dubbo_server_organization_service</module>
+        <module>video_platform_dubbo_server_organization_service_impl</module>
     </modules>
 
     <properties>

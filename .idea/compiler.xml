@@ -17,6 +17,7 @@
       <module name="video_platform_dubbo_server_device_interface" target="8" />
       <module name="video_platform_dubbo_server_device_service" target="8" />
       <module name="video_platform_dubbo_server_organizatin_interface" target="8" />
+      <module name="video_platform_dubbo_server_organization_service_impl" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -30,6 +31,7 @@
       <module name="video_platform_dubbo_server_organization" options="-parameters" />
       <module name="video_platform_dubbo_server_organization_interface" options="-parameters" />
       <module name="video_platform_dubbo_server_organization_service" options="-parameters" />
+      <module name="video_platform_dubbo_server_organization_service_impl" options="-parameters" />
     </option>
   </component>
 </project>

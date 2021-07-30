@@ -14,11 +14,15 @@ public class OrganizationServiceImpl extends BaseServiceImpl<Organization> imple
 
     @Override
     public int addOrganization(Organization organization) {
-        return baseMapper.insert(organization);
+        int insert = baseMapper.insert(organization);
+        System.out.println("Insert : "+ organization);
+        return insert;
     }
 
     @Override
     public List<Organization> findAll() {
-        return baseMapper.selectList(null);
+        List<Organization> organizations = baseMapper.selectList(null);
+        System.out.println(organizations);
+        return organizations;
     }
 }
