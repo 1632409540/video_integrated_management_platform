@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>video_platform_dubbo_server_organization</module>
+        <module>video_platform_dubbo_server_device</module>
     </modules>
 
     <properties>
